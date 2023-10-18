@@ -7,9 +7,118 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(147, 176, 183);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.div-wrapper {
+  display: flex;
+  gap: 10px;
+}
+
+.avatarProfile {
+  width: 200px;
+}
+
+.profile {
+  background-color: white;
+  width: 350px;
+  padding-top: 30px;
+  margin: 30px auto 0px auto;
+  border-radius: 5px;
+}
+
+.name {
+  font-size: 34px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tag {
+  margin: 0;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  border-top: 1px solid black;
+  background-color: darkgrey;
+}
+
+.stats-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  border-left: 1px solid black;
+  padding: 25px;
+}
+
+.stats-list:first-child {
+  border-left: none;
+}
+
+.statistics {
+  background-color: white;
+  width: 350px;
+  margin: auto;
+}
+
+.wrapper {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.item {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.percentage {
+  font-size: 20px;
+  color: white;
+}
+
+.title {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 20px 0;
+}
+
+.friend-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin: 10px auto;
+  padding-left: 0;
+  width: 350px;
+}
+
+.friend-list-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+  background-color: white;
+  padding: 0;
+  list-style: none;
 }
