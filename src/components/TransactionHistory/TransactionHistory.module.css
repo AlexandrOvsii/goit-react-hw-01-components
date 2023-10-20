@@ -1,0 +1,38 @@
+.transactionHistory {
+  margin: auto;
+  width: 60%;
+  text-align: center;
+  background-color: white;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+
+.transactionHeader {
+  text-transform: uppercase;
+  font-size: 24px;
+  background-color: lightgrey;
+}
+
+.bodyType {
+  text-transform: capitalize;
+}
+
+.invoice {
+  background-color: gray;
+}
+
+.payment {
+  background-color: pink;
+}
+
+.withdrawal {
+  background-color: yellow;
+}
+
+.deposit {
+  background-color: green;
+}
+
+.th {
+  width: 33.3%;
+}

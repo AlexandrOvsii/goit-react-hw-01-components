@@ -1,9 +1,11 @@
 import user from '../user.json';
 import data from '../data.json';
-import Statistics from './Statistics';
-import Profile from './Profile';
 import friends from '../friends.json';
-import FriendList from './FriendList';
+import transactions from '../transactions.json';
+import Statistics from './Statistics/Statistics';
+import Profile from './Profile/Profile';
+import FriendList from './FriendList/FriendList';
+import TransactionHistory from './TransactionHistory/TransactionHistory';
 
 function App() {
   return (
@@ -15,10 +17,9 @@ function App() {
         avatar={user.avatar}
         stats={user.stats}
       />
-
       <Statistics title="Upload stats" stats={data} />
-
       <FriendList friends={friends} />
+      <TransactionHistory items={transactions} />
     </>
   );
 }
